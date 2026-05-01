@@ -6,6 +6,8 @@ import DBConnect from './config/DBConnection.js';
 import authRouter from './routes/authRoutes.js';
 import logsMonitor from './middleware/logsHandler.js';
 import corsHandler from './middleware/corsHandler.js';
+import requestIdMiddleware from './middleware/requestId.js';
+import rateLimiter from './middleware/rateLimiter.js';
 
 env.config();
 
@@ -15,6 +17,8 @@ const app = express();
 
 await DBConnect();
 
+app.use(requestIdMiddleware);
+app.use(rateLimiter);
 app.use(logsMonitor());
 app.use(corsHandler);
 app.use(cookieParser());
