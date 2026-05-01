@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-05-01T14:08:32.812Z",
+  "level": "WARN",
+  "type": "LOGIN_FAILED",
+  "reason": "Invalid password",
+  "requestId": "8b17cc7c-4c2b-47b7-9eb4-d9807bae4e83",
+  "userId": "69f4acc09741bad256606309",
+  "email": "omkarpanchal.cse@gmail.com",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:09:45.546Z",
+  "level": "WARN",
+  "type": "LOGIN_FAILED",
+  "reason": "User not found",
+  "requestId": "49629dc1-c4fb-4a34-acb7-eab19843886c",
+  "email": "omkar13021@gmail.com",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:10:37.584Z",
+  "level": "WARN",
+  "type": "LOGIN_FAILED",
+  "reason": "User not found",
+  "requestId": "3ec41f2c-9788-4030-b7fe-02bd9da8c72a",
+  "email": "omkar panchal",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:10:44.417Z",
+  "level": "WARN",
+  "type": "LOGIN_FAILED",
+  "reason": "User not found",
+  "requestId": "de9d2012-86a6-44e7-9577-611e9f28d220",
+  "email": "omkar panchal",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:11:45.284Z",
+  "level": "WARN",
+  "type": "LOGIN_FAILED",
+  "reason": "Invalid password",
+  "requestId": "7d2751ea-2b76-4d24-8177-fcc64a511120",
+  "userId": "69f4d0621048fe75c7bb4a22",
+  "email": "omkar13021@gmail.com",
+  "ip": "::1"
+}

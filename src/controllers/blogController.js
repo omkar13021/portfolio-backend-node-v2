@@ -112,10 +112,25 @@ export const getAllBlogs = asyncHandler(async (req, res) => {
 export const getBlogById = asyncHandler(async (req, res) => {
     const { id } = req.params;
 
-    const blog = await Blog.findOne({
-        $or: [{ _id: id }, { slug: id }],
-        isDeleted: false
-    }).populate('author', 'name email');
+    // Check if id is a valid ObjectId
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(id);
+    
+    let query;
+    if (isValidObjectId) {
+        // If valid ObjectId, search by both _id and slug
+        query = {
+            $or: [{ _id: id }, { slug: id }],
+            isDeleted: false
+        };
+    } else {
+        // If not valid ObjectId, search only by slug
+        query = {
+            slug: id,
+            isDeleted: false
+        };
+    }
+
+    const blog = await Blog.findOne(query).populate('author', 'name email');
 
     if (!blog) {
         res.status(404);
@@ -139,10 +154,23 @@ export const updateBlog = asyncHandler(async (req, res) => {
     const { id } = req.params;
     const { title, slug, content, excerpt, featuredImage, tags, category, status, scheduledAt, metaTitle, metaDescription } = req.body;
 
-    const blog = await Blog.findOne({
-        $or: [{ _id: id }, { slug: id }],
-        isDeleted: false
-    });
+    // Check if id is a valid ObjectId
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(id);
+    
+    let query;
+    if (isValidObjectId) {
+        query = {
+            $or: [{ _id: id }, { slug: id }],
+            isDeleted: false
+        };
+    } else {
+        query = {
+            slug: id,
+            isDeleted: false
+        };
+    }
+
+    const blog = await Blog.findOne(query);
 
     if (!blog) {
         res.status(404);
@@ -195,10 +223,23 @@ export const updateBlog = asyncHandler(async (req, res) => {
 export const deleteBlog = asyncHandler(async (req, res) => {
     const { id } = req.params;
 
-    const blog = await Blog.findOne({
-        $or: [{ _id: id }, { slug: id }],
-        isDeleted: false
-    });
+    // Check if id is a valid ObjectId
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(id);
+    
+    let query;
+    if (isValidObjectId) {
+        query = {
+            $or: [{ _id: id }, { slug: id }],
+            isDeleted: false
+        };
+    } else {
+        query = {
+            slug: id,
+            isDeleted: false
+        };
+    }
+
+    const blog = await Blog.findOne(query);
 
     if (!blog) {
         res.status(404);
@@ -234,10 +275,23 @@ export const deleteBlog = asyncHandler(async (req, res) => {
 export const restoreBlog = asyncHandler(async (req, res) => {
     const { id } = req.params;
 
-    const blog = await Blog.findOne({
-        $or: [{ _id: id }, { slug: id }],
-        isDeleted: true
-    });
+    // Check if id is a valid ObjectId
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(id);
+    
+    let query;
+    if (isValidObjectId) {
+        query = {
+            $or: [{ _id: id }, { slug: id }],
+            isDeleted: true
+        };
+    } else {
+        query = {
+            slug: id,
+            isDeleted: true
+        };
+    }
+
+    const blog = await Blog.findOne(query);
 
     if (!blog) {
         res.status(404);
@@ -273,10 +327,23 @@ export const restoreBlog = asyncHandler(async (req, res) => {
 export const likeBlog = asyncHandler(async (req, res) => {
     const { id } = req.params;
 
-    const blog = await Blog.findOne({
-        $or: [{ _id: id }, { slug: id }],
-        isDeleted: false
-    });
+    // Check if id is a valid ObjectId
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(id);
+    
+    let query;
+    if (isValidObjectId) {
+        query = {
+            $or: [{ _id: id }, { slug: id }],
+            isDeleted: false
+        };
+    } else {
+        query = {
+            slug: id,
+            isDeleted: false
+        };
+    }
+
+    const blog = await Blog.findOne(query);
 
     if (!blog) {
         res.status(404);
@@ -298,10 +365,23 @@ export const likeBlog = asyncHandler(async (req, res) => {
 export const unlikeBlog = asyncHandler(async (req, res) => {
     const { id } = req.params;
 
-    const blog = await Blog.findOne({
-        $or: [{ _id: id }, { slug: id }],
-        isDeleted: false
-    });
+    // Check if id is a valid ObjectId
+    const isValidObjectId = /^[0-9a-fA-F]{24}$/.test(id);
+    
+    let query;
+    if (isValidObjectId) {
+        query = {
+            $or: [{ _id: id }, { slug: id }],
+            isDeleted: false
+        };
+    } else {
+        query = {
+            slug: id,
+            isDeleted: false
+        };
+    }
+
+    const blog = await Blog.findOne(query);
 
     if (!blog) {
         res.status(404);

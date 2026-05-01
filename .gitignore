@@ -3,4 +3,3 @@
 .env
 deploy.sh
 setup.sh
-/logs

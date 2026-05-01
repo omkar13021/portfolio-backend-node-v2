@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-05-01T14:09:06.240Z",
+  "level": "INFO",
+  "type": "LOGIN_SUCCESS",
+  "requestId": "fb3d2b20-0be4-4c04-89b5-d42f4d37f6a5",
+  "userId": "69f4acc09741bad256606309",
+  "email": "omkarpanchal.cse@gmail.com",
+  "role": "user",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:10:11.256Z",
+  "level": "INFO",
+  "type": "SIGNUP_SUCCESS",
+  "requestId": "d00dcaaf-782f-41dc-9e52-e95720a8db4e",
+  "userId": "69f4d0621048fe75c7bb4a22",
+  "email": "omkar13021@gmail.com",
+  "role": "user",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:10:35.017Z",
+  "level": "INFO",
+  "type": "LOGOUT",
+  "requestId": "878710af-8a25-401f-b5bc-ca81d1b89e29",
+  "userId": null,
+  "email": null,
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:11:59.337Z",
+  "level": "INFO",
+  "type": "LOGIN_SUCCESS",
+  "requestId": "ceb98fe6-3c65-4548-bb57-408ab610d484",
+  "userId": "69f4d0621048fe75c7bb4a22",
+  "email": "omkar13021@gmail.com",
+  "role": "user",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:19:05.839Z",
+  "level": "INFO",
+  "type": "LOGOUT",
+  "requestId": "4b3e1153-bf58-4efd-b8c7-30fa853034f0",
+  "userId": null,
+  "email": null,
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:20:06.672Z",
+  "level": "INFO",
+  "type": "LOGIN_SUCCESS",
+  "requestId": "7a0f2852-44eb-4f5f-a5ac-76bcd9e619cd",
+  "userId": "69f4d0621048fe75c7bb4a22",
+  "email": "omkar13021@gmail.com",
+  "role": "user",
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:28:33.004Z",
+  "level": "INFO",
+  "type": "LOGOUT",
+  "requestId": "f77ef63d-e974-49b0-94c7-e99041800575",
+  "userId": null,
+  "email": null,
+  "ip": "::1"
+}
+{
+  "timestamp": "2026-05-01T16:42:19.307Z",
+  "level": "INFO",
+  "type": "LOGIN_SUCCESS",
+  "requestId": "5af76026-ae10-410b-8e50-3b19be74de94",
+  "userId": "69f4d0621048fe75c7bb4a22",
+  "email": "omkar13021@gmail.com",
+  "role": "user",
+  "ip": "::1"
+}

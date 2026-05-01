@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-01T17:47:34.076Z",
+  "level": "INFO",
+  "type": "BLOG_CREATED",
+  "requestId": "c717623b-a659-420f-bc5f-8e45baefdebc",
+  "blogId": "69f4e735dc7e87b78f548758",
+  "authorId": "69f4d0621048fe75c7bb4a22",
+  "title": "We Lost Reliability and Credibility Because Our Founder Fell in Love with AI",
+  "status": "published"
+}
+{
+  "timestamp": "2026-05-01T17:55:52.991Z",
+  "level": "INFO",
+  "type": "BLOG_CREATED",
+  "requestId": "450bf911-a0d4-4579-a15a-9b2c40e68710",
+  "blogId": "69f4e928dc7e87b78f5487d6",
+  "authorId": "69f4d0621048fe75c7bb4a22",
+  "title": "How I Resolved My Domain Suspension Issue with Hostinger and Radix",
+  "status": "published"
+}

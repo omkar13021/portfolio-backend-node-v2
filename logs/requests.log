@@ -1,0 +1,3008 @@
+{
+  "timestamp": "2026-05-01T14:08:32.350Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "90e598ad-932c-41e0-940a-33cb8a4d36b2",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T14:08:32.357Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "8b17cc7c-4c2b-47b7-9eb4-d9807bae4e83",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T14:08:32.818Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "8b17cc7c-4c2b-47b7-9eb4-d9807bae4e83",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 401,
+  "duration": "461ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T14:09:05.867Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f82af0e8-605d-4c5b-be7b-12bc57e88785",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T14:09:05.873Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "fb3d2b20-0be4-4c04-89b5-d42f4d37f6a5",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T14:09:06.242Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "fb3d2b20-0be4-4c04-89b5-d42f4d37f6a5",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 200,
+  "duration": "369ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:09:45.111Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "cd2307c0-6bc4-41af-be62-5259865a4e14",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:09:45.126Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "49629dc1-c4fb-4a34-acb7-eab19843886c",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:09:45.554Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "49629dc1-c4fb-4a34-acb7-eab19843886c",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 401,
+  "duration": "428ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:10:10.375Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "2d83b476-ae0a-4f77-a2e9-eaa2c1a2a9ad",
+  "method": "OPTIONS",
+  "url": "/api/auth/sign-up",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:10.378Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "d00dcaaf-782f-41dc-9e52-e95720a8db4e",
+  "method": "POST",
+  "url": "/api/auth/sign-up",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:11.258Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "d00dcaaf-782f-41dc-9e52-e95720a8db4e",
+  "method": "POST",
+  "url": "/api/auth/sign-up",
+  "statusCode": 201,
+  "duration": "880ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:10:11.285Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4a8ab72e-aeb7-4509-9367-17ead1d18c29",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:11.555Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4a8ab72e-aeb7-4509-9367-17ead1d18c29",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "270ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:10:11.560Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "74aac962-db00-4b36-89d4-6e31f513d15b",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:11.812Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "74aac962-db00-4b36-89d4-6e31f513d15b",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "252ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:10:18.564Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f7ab851f-4e3c-45ed-83fb-27f3e0e7ea54",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:18.569Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "96e96ab9-c3dc-4a40-af10-a5f3f067dc39",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:30.829Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "48129b37-aed3-4636-a364-00eda4a854bb",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:30.833Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "a13c9de4-5d3c-48f4-b1bc-f36f1f14b2f0",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:35.016Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "878710af-8a25-401f-b5bc-ca81d1b89e29",
+  "method": "POST",
+  "url": "/api/auth/logout",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:35.017Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "878710af-8a25-401f-b5bc-ca81d1b89e29",
+  "method": "POST",
+  "url": "/api/auth/logout",
+  "statusCode": 200,
+  "duration": "1ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:10:37.320Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "45be05fd-9469-4164-996a-df1f1b0c8669",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:37.322Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3ec41f2c-9788-4030-b7fe-02bd9da8c72a",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:37.587Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "3ec41f2c-9788-4030-b7fe-02bd9da8c72a",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 401,
+  "duration": "265ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:10:44.167Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "78104d78-2485-4821-b109-5250f3e66089",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:44.170Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "de9d2012-86a6-44e7-9577-611e9f28d220",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:10:44.419Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "de9d2012-86a6-44e7-9577-611e9f28d220",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 401,
+  "duration": "249ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:11:44.594Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "2967f879-4aa3-48ff-8a69-baeffd79ee3d",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:11:44.603Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "7d2751ea-2b76-4d24-8177-fcc64a511120",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:11:45.288Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "7d2751ea-2b76-4d24-8177-fcc64a511120",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 401,
+  "duration": "685ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:11:58.803Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "1c2ac061-2f46-4aba-9b14-357170c82c11",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:11:58.806Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ceb98fe6-3c65-4548-bb57-408ab610d484",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:11:59.339Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "ceb98fe6-3c65-4548-bb57-408ab610d484",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 200,
+  "duration": "533ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:12:46.292Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "7728dae3-cfcf-42de-a646-e6e8b3d94b1f",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:12:46.295Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ebd5c272-408d-4f8a-86e8-a872dafc5fe2",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:12:58.340Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "16baf837-fe7b-42eb-ab40-087f086ddab2",
+  "method": "OPTIONS",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:12:58.344Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "d9ede729-fffd-4f9e-ac2d-ac73b4d1886a",
+  "method": "POST",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:44.391Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "259cd1fb-251a-4553-9260-8576cf36fb78",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:44.776Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "259cd1fb-251a-4553-9260-8576cf36fb78",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "385ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:16:44.780Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "665001a7-cca6-4b45-beb2-28f47c47d064",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:45.076Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "665001a7-cca6-4b45-beb2-28f47c47d064",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "296ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:16:53.018Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ddedb596-e82c-44d2-8939-65d5ffee971e",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:53.372Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "ddedb596-e82c-44d2-8939-65d5ffee971e",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "354ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:16:53.373Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "09c4a618-2eb7-4df0-ac54-51b1467c6021",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:53.679Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "09c4a618-2eb7-4df0-ac54-51b1467c6021",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "306ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:16:53.681Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c2e9dc07-74c6-451e-b34a-4d90c089829a",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:53.984Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "c2e9dc07-74c6-451e-b34a-4d90c089829a",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "303ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:16:53.986Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4f31c722-1893-4ac3-b771-309b798bb4ee",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:54.255Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4f31c722-1893-4ac3-b771-309b798bb4ee",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "269ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:16:54.832Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9a40dafe-82ce-4f9d-ad70-5a1bae78f631",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:16:54.838Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "5b0f5c96-25c8-4054-971d-88f8c75e0604",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:17:34.897Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f4b1a553-f9c1-4d50-91c1-0dc8a80ad0b6",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:18:11.594Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "73ff8633-4a10-4ef2-a48d-591b13f16b68",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:18:11.601Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "311ee988-b03f-4b89-aa2a-f4602d5dd488",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:18:15.727Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3881475a-56b9-4c4b-8c87-aaec8652f52e",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:18:15.732Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "320d2967-5403-42dd-b638-9dcae0c1197e",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:19:05.839Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4b3e1153-bf58-4efd-b8c7-30fa853034f0",
+  "method": "POST",
+  "url": "/api/auth/logout",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:19:05.839Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4b3e1153-bf58-4efd-b8c7-30fa853034f0",
+  "method": "POST",
+  "url": "/api/auth/logout",
+  "statusCode": 200,
+  "duration": "0ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:20:06.229Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "980092b5-b17f-4b3e-8663-d3769144eb30",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:06.241Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "7a0f2852-44eb-4f5f-a5ac-76bcd9e619cd",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:06.674Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "7a0f2852-44eb-4f5f-a5ac-76bcd9e619cd",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 200,
+  "duration": "432ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:20:06.734Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "017392f5-17db-431d-a14f-1b59b379a0b9",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:06.970Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "017392f5-17db-431d-a14f-1b59b379a0b9",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "236ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:20:06.975Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6782e59f-8262-4f2b-b64a-ada09aeb1909",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:07.197Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "6782e59f-8262-4f2b-b64a-ada09aeb1909",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "222ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:20:09.457Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "723ccc30-2859-4107-89e0-aaee67d4412e",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:09.462Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6788156e-5993-468a-a6d3-58f48503af8b",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:13.193Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "fa744899-6e66-4e7d-b11f-c055c511e432",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:20:13.195Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "49d20438-256b-4d4b-aeb3-cb52c6016cb7",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:21:17.770Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c360b2c1-bbfb-48ab-8094-4d174e89e18d",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:21:17.773Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "03ddc39d-0154-433b-b255-27566021fc5d",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:21:19.937Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9504cb6c-d7f3-4097-acd6-90214bc3495a",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:21:19.940Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3be1d996-3e14-4522-8a2f-94f3dc2c47b0",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:21:24.704Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "24f1e53f-59e7-42c4-97ee-c3777d6716a4",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:21:24.707Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "17d06e72-e445-4122-a8d0-99496475cd69",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:25:55.045Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6c6919ab-a773-49c9-8c5d-f89d4b7af824",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:25:55.049Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "71ec2af3-57ae-478a-8fc0-72e867d9143e",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:26:11.508Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f9da5e52-abf1-4c94-bc0b-d5ac18dac419",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:26:11.513Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "43a51db9-9949-4318-ab07-186290c7a4ee",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:26:15.274Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "03f0d173-d2e0-4ec6-90ab-9e2c9f149287",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:26:15.276Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f05da0cd-8572-40ed-9152-d832f590b130",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:26:26.422Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "48087d48-12b6-4f55-9e2f-13ccd7e73232",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:26:26.425Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "264cc7f0-26db-4d18-b31c-4f8ef44ff586",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:28:28.524Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "29097ff7-0bb9-408a-b27f-2d62bed00c48",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:28:28.872Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "29097ff7-0bb9-408a-b27f-2d62bed00c48",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "348ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:28:28.875Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "bbf01a82-998b-4c97-9078-bdbab1b7d5ad",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:28:29.179Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "bbf01a82-998b-4c97-9078-bdbab1b7d5ad",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "304ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:28:33.004Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f77ef63d-e974-49b0-94c7-e99041800575",
+  "method": "POST",
+  "url": "/api/auth/logout",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:28:33.005Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f77ef63d-e974-49b0-94c7-e99041800575",
+  "method": "POST",
+  "url": "/api/auth/logout",
+  "statusCode": 200,
+  "duration": "1ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:42:18.890Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6efeb9e9-c00d-4fc2-8c6a-386ab7c72ac9",
+  "method": "OPTIONS",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:18.898Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "5af76026-ae10-410b-8e50-3b19be74de94",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:19.308Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "5af76026-ae10-410b-8e50-3b19be74de94",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "statusCode": 200,
+  "duration": "410ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T16:42:19.357Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f847d50f-716f-4fcf-8f76-8f0d1f406080",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:19.594Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f847d50f-716f-4fcf-8f76-8f0d1f406080",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "237ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:42:19.598Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c16af2f4-1a4e-4bcc-89c8-87960a78f571",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:19.831Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "c16af2f4-1a4e-4bcc-89c8-87960a78f571",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "233ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T16:42:21.326Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "2e9bfef9-abc4-4574-8290-9752759084fe",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:21.330Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "04c077ec-c48f-4ad9-bc1b-d83c9c384fec",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:24.309Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "7904102c-dc43-4546-99d5-738793b38f8c",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:24.312Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "401ae692-287b-4397-9409-0a32b184688d",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:27.277Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6fab3d7f-61c1-4791-9df4-88bbbd7a692f",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:27.280Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "d9c36242-eb56-401d-a1e2-1a3bd76d5245",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:30.974Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "95afee9b-5ef2-4ef9-b49c-25d4c0583030",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:30.977Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "cf578b66-56f8-4e7f-a7e2-a7510d65cb9d",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:39.011Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "5b1690d0-c55d-430d-85b1-209f49ccc597",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:39.014Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "25c625b5-bfc9-4d03-b758-ec346d4cfd1f",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:41.973Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9f25143b-4f6f-47da-96c7-670661144f08",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:42:41.975Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c0dd6376-b75c-44df-a8e9-7a558d34a0ca",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:54:23.283Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "58d53733-9ba7-4ea5-ae8e-d94d971b1545",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T16:54:23.297Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ddf23ee2-20cb-42aa-9ac7-d04a8f1f3450",
+  "method": "GET",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:15.463Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "16fdd47b-b387-4cb9-8722-1026dc4b8ba5",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:15.835Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "16fdd47b-b387-4cb9-8722-1026dc4b8ba5",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "373ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:35:15.838Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f7542f4f-6206-4478-b376-61e91077085c",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:16.085Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f7542f4f-6206-4478-b376-61e91077085c",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "247ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:35:16.773Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ac2fed08-f55d-40f1-b811-8ab4d094c4f9",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:17.560Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "ac2fed08-f55d-40f1-b811-8ab4d094c4f9",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "787ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T17:35:17.563Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "141844f1-7ca7-4b86-b4ef-65ad5f8cfe87",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:18.043Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "141844f1-7ca7-4b86-b4ef-65ad5f8cfe87",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "480ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T17:35:36.119Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4b947d0a-99e5-430f-b3d9-7058cc459e71",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:36.350Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4b947d0a-99e5-430f-b3d9-7058cc459e71",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "231ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:35:36.354Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ffe26bda-fb1d-4876-87dd-a7f54ae5c6d7",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:36.652Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "ffe26bda-fb1d-4876-87dd-a7f54ae5c6d7",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "298ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:35:36.813Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "18c00838-0e09-45e0-84ad-74fc1e5d44da",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:38.770Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "18c00838-0e09-45e0-84ad-74fc1e5d44da",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1957ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T17:35:38.774Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "70b1a10b-f969-4612-8f21-06e5783530f4",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:35:39.540Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "70b1a10b-f969-4612-8f21-06e5783530f4",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "766ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T17:36:29.408Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "555cff7d-f062-4ad6-acf7-459031e12578",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:36:29.941Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "555cff7d-f062-4ad6-acf7-459031e12578",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "533ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:36:29.943Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "68c10bbc-093e-4ffc-99bf-f3cb9140e48a",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:36:30.170Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "68c10bbc-093e-4ffc-99bf-f3cb9140e48a",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "227ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:36:30.765Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "40e676ca-f060-4589-9b95-10e571f8fc8f",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:36:31.206Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "40e676ca-f060-4589-9b95-10e571f8fc8f",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "441ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T17:36:31.208Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f2f1c12e-c566-4e4c-b04c-0ee1e6e1e86c",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:36:31.672Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f2f1c12e-c566-4e4c-b04c-0ee1e6e1e86c",
+  "method": "GET",
+  "url": "/api/blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "464ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T17:37:21.919Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "1cb0e556-a890-466d-a989-aa7f22f52d56",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:37:22.418Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "1cb0e556-a890-466d-a989-aa7f22f52d56",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "499ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:37:23.056Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "22281a48-3278-404c-a3c2-1dd288c949d6",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:37:23.412Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "22281a48-3278-404c-a3c2-1dd288c949d6",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "356ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:37:23.413Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6f59b5b7-e815-444c-900b-6c9e33a277b0",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:37:23.667Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "6f59b5b7-e815-444c-900b-6c9e33a277b0",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "254ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:37:23.953Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "b03f2116-a3aa-49d3-8b80-6042c0c9e2b3",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:37:24.401Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "b03f2116-a3aa-49d3-8b80-6042c0c9e2b3",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "448ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:37:24.403Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "02fc4adb-8362-498e-9be2-0100c4185633",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:37:25.025Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "02fc4adb-8362-498e-9be2-0100c4185633",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "622ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:47:33.685Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4e178d04-d460-413a-b422-dad720689ed1",
+  "method": "OPTIONS",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:47:33.694Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c717623b-a659-420f-bc5f-8e45baefdebc",
+  "method": "POST",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:47:34.078Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "c717623b-a659-420f-bc5f-8e45baefdebc",
+  "method": "POST",
+  "url": "/api/blogs",
+  "statusCode": 201,
+  "duration": "384ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:47:34.268Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ce7acfc3-1510-482c-9233-92463fddacc6",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:47:34.817Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "ce7acfc3-1510-482c-9233-92463fddacc6",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "549ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:48:02.872Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4fff4674-b900-46b0-8a04-3bfdc910c02d",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:48:03.182Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4fff4674-b900-46b0-8a04-3bfdc910c02d",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "310ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:48:03.184Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "777055b1-c340-4c54-9b7d-bf9b61509153",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:48:03.539Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "7306d0b7-8b83-4c49-a17a-9aa86c4b4785",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:48:03.552Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "777055b1-c340-4c54-9b7d-bf9b61509153",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "368ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:48:04.106Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "7306d0b7-8b83-4c49-a17a-9aa86c4b4785",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "567ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:48:04.108Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "cb674788-c98e-4923-808e-d258d77df837",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:48:04.719Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "cb674788-c98e-4923-808e-d258d77df837",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "611ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:55:52.558Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c3ea81a6-dbd6-466d-b625-c4db948d9216",
+  "method": "OPTIONS",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:55:52.561Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "450bf911-a0d4-4579-a15a-9b2c40e68710",
+  "method": "POST",
+  "url": "/api/blogs",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:55:52.993Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "450bf911-a0d4-4579-a15a-9b2c40e68710",
+  "method": "POST",
+  "url": "/api/blogs",
+  "statusCode": 201,
+  "duration": "432ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T17:55:53.150Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "d0744876-e301-4024-af91-1e2b4302e63f",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T17:55:53.711Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "d0744876-e301-4024-af91-1e2b4302e63f",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "561ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:02:12.118Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f3263724-e1ce-4584-af9f-2ecfa3e247d2",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:02:12.466Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f3263724-e1ce-4584-af9f-2ecfa3e247d2",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "348ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:02:12.469Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "14c32f52-d66c-473c-a63d-be75db6e70d3",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:02:12.794Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "14c32f52-d66c-473c-a63d-be75db6e70d3",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "325ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:02:12.809Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4b56f208-1bad-4db7-9302-3f1a3d6b82df",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:02:13.303Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4b56f208-1bad-4db7-9302-3f1a3d6b82df",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "494ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:02:13.307Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "b746fd49-1445-4412-833e-8ea5db8134fb",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:02:13.759Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "b746fd49-1445-4412-833e-8ea5db8134fb",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "452ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:22.688Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4f66ca3b-a195-48d2-bf13-d858a26544d4",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:22.959Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4f66ca3b-a195-48d2-bf13-d858a26544d4",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "271ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:22.961Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f8ed2d7d-fb39-4e2b-afba-7ae38c521858",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:23.246Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f8ed2d7d-fb39-4e2b-afba-7ae38c521858",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "285ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:23.292Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "66e9f3ea-4016-497c-8277-5eb91530d26a",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:24.099Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "66e9f3ea-4016-497c-8277-5eb91530d26a",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "807ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:24.102Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "cfbbd677-8249-4a92-8584-3127ee4b8719",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:24.539Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "cfbbd677-8249-4a92-8584-3127ee4b8719",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "437ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:44.655Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "57fc7faa-0dd8-419b-984c-401d6875a55f",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:44.971Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "57fc7faa-0dd8-419b-984c-401d6875a55f",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "316ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:44.974Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "2692c4bf-726f-4fbd-85cd-422a8479c395",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:45.271Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "2692c4bf-726f-4fbd-85cd-422a8479c395",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "297ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:45.313Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9cfadf0b-7d97-4beb-baf1-34bc10399360",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:45.884Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "9cfadf0b-7d97-4beb-baf1-34bc10399360",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "571ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:03:45.888Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "0c6627d6-8ec3-4f2f-81f0-cab187e54346",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:03:46.445Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "0c6627d6-8ec3-4f2f-81f0-cab187e54346",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "557ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:04:56.659Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4ae94774-22c8-49ff-840c-0fbee79ae232",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:04:56.824Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "33b92646-788f-4563-a192-9ea6e2fa278e",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:04:56.884Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4ae94774-22c8-49ff-840c-0fbee79ae232",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "225ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:04:57.046Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "33b92646-788f-4563-a192-9ea6e2fa278e",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "222ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:04:57.048Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "88de1344-be72-43a9-b64a-64c45660cc1f",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:04:57.350Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "88de1344-be72-43a9-b64a-64c45660cc1f",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "302ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:04:57.396Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "23fe83c0-4cab-4c5f-8a0c-be7c06697c34",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:04:57.878Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "23fe83c0-4cab-4c5f-8a0c-be7c06697c34",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "482ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:04:57.880Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "b39e7e68-62e1-47e6-98f8-2b48e1224123",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:04:58.533Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "b39e7e68-62e1-47e6-98f8-2b48e1224123",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "653ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:04:59.837Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "5c517948-4d6f-4be1-b834-45a853ccb4b0",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:05:00.065Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "5c517948-4d6f-4be1-b834-45a853ccb4b0",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "228ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:05:00.068Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "e186afe3-d7b0-4239-9463-25fe6fa35992",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:05:00.289Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "e186afe3-d7b0-4239-9463-25fe6fa35992",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "222ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:05:00.410Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "de5f7be2-d447-4178-bf6d-d48ce353966b",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:05:00.904Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "de5f7be2-d447-4178-bf6d-d48ce353966b",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "494ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:05:00.908Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "34b90747-54a9-4e96-a333-113483dcf48e",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:05:01.373Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "34b90747-54a9-4e96-a333-113483dcf48e",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "465ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:06:11.655Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "92ed516f-da8b-4671-8723-352673d504c0",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:06:12.000Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "92ed516f-da8b-4671-8723-352673d504c0",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "345ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:06:12.003Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "7ef1137b-7202-4bef-8e05-0813d6f1a855",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:06:12.314Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "7ef1137b-7202-4bef-8e05-0813d6f1a855",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "311ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:06:12.359Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3f8afc8f-1699-46cd-8f01-9405b476816b",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:06:12.922Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "3f8afc8f-1699-46cd-8f01-9405b476816b",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "563ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:06:12.925Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "641cfda7-96fe-431f-b4cd-05826604c3b5",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:06:13.637Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "641cfda7-96fe-431f-b4cd-05826604c3b5",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "712ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:08:33.603Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "8dc6e64a-82c3-4a56-8398-423287a6add3",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:08:33.926Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "8dc6e64a-82c3-4a56-8398-423287a6add3",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "323ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:08:33.930Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "38e30e1f-ef21-40e3-b600-26b433fc98f1",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:08:34.232Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "38e30e1f-ef21-40e3-b600-26b433fc98f1",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "302ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:08:34.281Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "99c6bfe3-e847-43e0-a76f-4e8501996c44",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:08:35.359Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "99c6bfe3-e847-43e0-a76f-4e8501996c44",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1078ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:08:35.362Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "d2c23cf9-72cd-46b1-a992-985f39874508",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:08:35.974Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "d2c23cf9-72cd-46b1-a992-985f39874508",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "612ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:10:12.148Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "fc7806c2-ab66-48c6-a5fa-626cde8c3287",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:10:12.434Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "fc7806c2-ab66-48c6-a5fa-626cde8c3287",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "286ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:10:12.436Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3c5f7cd7-dcb8-41e2-8087-487491bab70f",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:10:12.743Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "3c5f7cd7-dcb8-41e2-8087-487491bab70f",
+  "method": "GET",
+  "url": "/api/auth/current-user",
+  "statusCode": 200,
+  "duration": "307ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:10:12.789Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "d990a931-79c3-4466-8913-8dec6410d692",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:10:13.767Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "d990a931-79c3-4466-8913-8dec6410d692",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "978ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:10:13.771Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "38e9a7ef-5b9d-48be-8ebf-2123b2acadcc",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:10:14.329Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "38e9a7ef-5b9d-48be-8ebf-2123b2acadcc",
+  "method": "GET",
+  "url": "/api/blogs/user/my-blogs?page=1&limit=10",
+  "statusCode": 200,
+  "duration": "558ms",
+  "userId": "69f4d0621048fe75c7bb4a22"
+}
+{
+  "timestamp": "2026-05-01T18:14:28.481Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "ce431eda-ae00-495a-b9dd-1095b45728e7",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:14:29.485Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "ce431eda-ae00-495a-b9dd-1095b45728e7",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1005ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:14:29.489Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9427ee42-9e20-4019-a00b-68cf8600a212",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:14:30.811Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "9427ee42-9e20-4019-a00b-68cf8600a212",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1322ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:14:30.821Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c9cffe8c-7dd4-45e2-9970-aa1849a61ebd",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:14:31.508Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "c9cffe8c-7dd4-45e2-9970-aa1849a61ebd",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "687ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:14:45.299Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "8ec24915-44f9-44c2-84f4-121688385b34",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:14:46.559Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "8ec24915-44f9-44c2-84f4-121688385b34",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1260ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:14:46.562Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4aac1d57-781b-467f-8a39-2d47b6f3a1e7",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:14:47.452Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4aac1d57-781b-467f-8a39-2d47b6f3a1e7",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "890ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:14:47.455Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3b5a8c9f-8922-4e44-88e8-f695c85c0ae9",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:14:48.124Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "3b5a8c9f-8922-4e44-88e8-f695c85c0ae9",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "669ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:23:33.141Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "e4ae7b34-fdba-46c0-8a43-538fdc86a7b5",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:23:34.531Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "e4ae7b34-fdba-46c0-8a43-538fdc86a7b5",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1390ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:24:39.126Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "4a7dfbf2-347f-4d96-9d09-95b1709b4ccd",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:24:39.133Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "4a7dfbf2-347f-4d96-9d09-95b1709b4ccd",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 500,
+  "duration": "7ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:24:44.395Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "678252bb-2dad-4b9c-b424-ccbc15d294c7",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:24:44.398Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "678252bb-2dad-4b9c-b424-ccbc15d294c7",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 500,
+  "duration": "3ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:24:46.815Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "82b1aedb-6063-48d1-bd7b-1d4c792a1a1f",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:24:48.056Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "82b1aedb-6063-48d1-bd7b-1d4c792a1a1f",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1241ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:24:58.562Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "769194a6-4342-4a81-ac9d-e3ae31ef71b3",
+  "method": "GET",
+  "url": "/api/blogs/domain-suspension-resulation",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:24:58.565Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "769194a6-4342-4a81-ac9d-e3ae31ef71b3",
+  "method": "GET",
+  "url": "/api/blogs/domain-suspension-resulation",
+  "statusCode": 500,
+  "duration": "3ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:28:37.920Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "b0b4cfe2-db16-49fd-9cf2-0dbaa1f62ed2",
+  "method": "GET",
+  "url": "/api/blogs/69f4e735dc7e87b78f548758",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:28:38.637Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "b0b4cfe2-db16-49fd-9cf2-0dbaa1f62ed2",
+  "method": "GET",
+  "url": "/api/blogs/69f4e735dc7e87b78f548758",
+  "statusCode": 200,
+  "duration": "717ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:28:38.641Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "51fbdfc9-bcca-45b0-aa42-0f22739c8c2a",
+  "method": "GET",
+  "url": "/api/blogs/69f4e735dc7e87b78f548758",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:28:39.334Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "51fbdfc9-bcca-45b0-aa42-0f22739c8c2a",
+  "method": "GET",
+  "url": "/api/blogs/69f4e735dc7e87b78f548758",
+  "statusCode": 200,
+  "duration": "693ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:30:02.924Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "eb4a502d-d05e-4f5a-8956-03c5b7c07472",
+  "method": "GET",
+  "url": "/api/blogs/domain-suspension-resulation",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:30:02.925Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "eb4a502d-d05e-4f5a-8956-03c5b7c07472",
+  "method": "GET",
+  "url": "/api/blogs/domain-suspension-resulation",
+  "statusCode": 500,
+  "duration": "1ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:30:02.971Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "37abe881-d107-4e9f-bf61-b93b8b68618c",
+  "method": "GET",
+  "url": "/api/blogs/domain-suspension-resulation",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:30:02.972Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "37abe881-d107-4e9f-bf61-b93b8b68618c",
+  "method": "GET",
+  "url": "/api/blogs/domain-suspension-resulation",
+  "statusCode": 500,
+  "duration": "1ms",
+  "userId": null
+}

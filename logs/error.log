@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-05-01 19:38:32",
+  "level": "ERROR",
+  "message": "Invalid credentials",
+  "stack": "Error: Invalid credentials\n    at file:///C:/Users/Omkar/Desktop/My%20Project/portfolio/backend/src/controllers/authController.js:114:15"
+}
+{
+  "timestamp": "2026-05-01 21:39:45",
+  "level": "ERROR",
+  "message": "Invalid credentials",
+  "stack": "Error: Invalid credentials\n    at file:///C:/Users/Omkar/Desktop/My%20Project/portfolio/backend/src/controllers/authController.js:99:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-01 21:40:37",
+  "level": "ERROR",
+  "message": "Invalid credentials",
+  "stack": "Error: Invalid credentials\n    at file:///C:/Users/Omkar/Desktop/My%20Project/portfolio/backend/src/controllers/authController.js:99:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-01 21:40:44",
+  "level": "ERROR",
+  "message": "Invalid credentials",
+  "stack": "Error: Invalid credentials\n    at file:///C:/Users/Omkar/Desktop/My%20Project/portfolio/backend/src/controllers/authController.js:99:15\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-01 21:41:45",
+  "level": "ERROR",
+  "message": "Invalid credentials",
+  "stack": "Error: Invalid credentials\n    at file:///C:/Users/Omkar/Desktop/My%20Project/portfolio/backend/src/controllers/authController.js:114:15"
+}
+{
+  "timestamp": "2026-05-01 23:54:39",
+  "level": "ERROR",
+  "message": "Cast to ObjectId failed for value \"fell-in-love-with-ai\" (type string) at path \"_id\" for model \"Blog\"",
+  "stack": "CastError: Cast to ObjectId failed for value \"fell-in-love-with-ai\" (type string) at path \"_id\" for model \"Blog\"\n    at SchemaObjectId.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1236:12)\n    at SchemaType.castForQuery (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1653:17)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:73:20)\n    at Query.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4798:12)\n    at Query._castConditions (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2206:10)\n    at model.Query._findOne (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2526:8)\n    at model.Query.exec (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4342:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-01 23:54:44",
+  "level": "ERROR",
+  "message": "Cast to ObjectId failed for value \"fell-in-love-with-ai\" (type string) at path \"_id\" for model \"Blog\"",
+  "stack": "CastError: Cast to ObjectId failed for value \"fell-in-love-with-ai\" (type string) at path \"_id\" for model \"Blog\"\n    at SchemaObjectId.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1236:12)\n    at SchemaType.castForQuery (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1653:17)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:73:20)\n    at Query.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4798:12)\n    at Query._castConditions (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2206:10)\n    at model.Query._findOne (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2526:8)\n    at model.Query.exec (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4342:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-01 23:54:58",
+  "level": "ERROR",
+  "message": "Cast to ObjectId failed for value \"domain-suspension-resulation\" (type string) at path \"_id\" for model \"Blog\"",
+  "stack": "CastError: Cast to ObjectId failed for value \"domain-suspension-resulation\" (type string) at path \"_id\" for model \"Blog\"\n    at SchemaObjectId.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1236:12)\n    at SchemaType.castForQuery (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1653:17)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:73:20)\n    at Query.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4798:12)\n    at Query._castConditions (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2206:10)\n    at model.Query._findOne (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2526:8)\n    at model.Query.exec (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4342:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-02 00:00:02",
+  "level": "ERROR",
+  "message": "Cast to ObjectId failed for value \"domain-suspension-resulation\" (type string) at path \"_id\" for model \"Blog\"",
+  "stack": "CastError: Cast to ObjectId failed for value \"domain-suspension-resulation\" (type string) at path \"_id\" for model \"Blog\"\n    at SchemaObjectId.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1236:12)\n    at SchemaType.castForQuery (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1653:17)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:73:20)\n    at Query.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4798:12)\n    at Query._castConditions (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2206:10)\n    at model.Query._findOne (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2526:8)\n    at model.Query.exec (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4342:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
+{
+  "timestamp": "2026-05-02 00:00:02",
+  "level": "ERROR",
+  "message": "Cast to ObjectId failed for value \"domain-suspension-resulation\" (type string) at path \"_id\" for model \"Blog\"",
+  "stack": "CastError: Cast to ObjectId failed for value \"domain-suspension-resulation\" (type string) at path \"_id\" for model \"Blog\"\n    at SchemaObjectId.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)\n    at SchemaType.applySetters (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1236:12)\n    at SchemaType.castForQuery (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\schemaType.js:1653:17)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:375:32)\n    at cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\cast.js:73:20)\n    at Query.cast (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4798:12)\n    at Query._castConditions (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2206:10)\n    at model.Query._findOne (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:2526:8)\n    at model.Query.exec (C:\\Users\\Omkar\\Desktop\\My Project\\portfolio\\backend\\node_modules\\mongoose\\lib\\query.js:4342:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}
