@@ -8,7 +8,7 @@ import { signUpSchema, loginSchema } from '../validators/authValidator.js';
 const router = express.Router();
 
 // Apply strict rate limiting to all auth routes
-router.use(rateLimiter.auth);
+// router.use(rateLimiter.auth);
 
 // Public
 router.post('/sign-up', validate(signUpSchema), signUp);

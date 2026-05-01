@@ -32,7 +32,7 @@ const createApp = () => {
     app.use(requestLogger);
 
     // ── Global rate limiter ───────────────────────────────────────────────────
-    app.use(rateLimiter.global);
+    // app.use(rateLimiter.global);
 
     // ── Body parsers ──────────────────────────────────────────────────────────
     app.use(express.json({ limit: '1mb' }));

@@ -20,7 +20,7 @@ const makeHandler = (label) => (req, res) => {
 /** 100 requests / minute — applied globally */
 const globalLimiter = rateLimit({
     windowMs       : 60 * 1000,
-    max            : 100000,
+    max            : 100,
     standardHeaders: true,
     legacyHeaders  : false,
     handler        : makeHandler('global'),
