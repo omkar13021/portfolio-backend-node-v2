@@ -3513,3 +3513,3850 @@
     "status": "published"
   }
 }
+{
+  "timestamp": "2026-05-01T18:47:50.646Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T18:47:52.217Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:52.489Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:52.752Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:53.025Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:53.278Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:53.548Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:53.833Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:54.109Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:54.370Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:54.631Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:47:54.891Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:41.880Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T18:48:43.463Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:43.737Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:44.013Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:44.282Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:44.620Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:44.903Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:45.235Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:45.543Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:45.849Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:46.157Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:46.434Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:53.926Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T18:48:55.447Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:55.699Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:55.964Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:56.241Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:56.505Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:56.770Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:57.049Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:57.300Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:57.570Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:57.822Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:48:58.090Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:10.985Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T18:49:17.916Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T18:49:19.642Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:19.644Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:19.949Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:19.951Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:20.255Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:20.256Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:20.570Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:20.571Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:20.972Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:20.972Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:21.381Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:21.381Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:21.690Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:21.691Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:21.998Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:21.999Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:22.304Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:22.305Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:22.615Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:22.917Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:56.451Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:57.163Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:58.272Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:58.784Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:59.043Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:49:59.308Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:52:39.730Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:52:39.995Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:52:40.530Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:52:41.048Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:52:41.297Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:52:41.577Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:08.638Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:08.916Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:10.427Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:10.713Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:11.100Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:11.408Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:11.668Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:53:11.911Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:03:12.958Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "insertOne",
+  "query": {
+    "title": "ConnectAI - AI-Driven Healthcare Platform",
+    "description": "Contributed to a scalable AI-powered healthcare SaaS platform by building and enhancing multiple core modules including staff management, video calling, reward & credit system, and QR-based workflows.",
+    "fullDescription": "Worked on an AI-driven healthcare platform at Zodix Health. Built and improved key features such as staff management, real-time video calling, reward system, credit system, transaction tracking, and QR-based workflows. Focused on fixing production bugs, improving application stability, frontend responsiveness, and seamless backend API integrations.",
+    "category": "Web Development",
+    "technologies": [
+      "react",
+      "node",
+      "aws"
+    ],
+    "images": [],
+    "thumbnailImage": "https://good.com",
+    "demoUrl": "https://connectai.care",
+    "githubUrl": "https://www.github.com/in/omkarpanchalcse",
+    "status": "published",
+    "featured": true,
+    "startDate": "2024-08-28T00:00:00.000Z",
+    "endDate": "2026-05-02T00:00:00.000Z",
+    "client": {
+      "name": "Clinic/doctor",
+      "company": "Zodix Health",
+      "testimonial": "good"
+    },
+    "teamSize": 14,
+    "role": "Software Engineer",
+    "challenges": [],
+    "solutions": [],
+    "results": [],
+    "tags": [
+      "connectai",
+      "healthcare"
+    ],
+    "views": 0,
+    "likes": 0,
+    "author": "69f4d0621048fe75c7bb4a22",
+    "metaTitle": "Connectai growth",
+    "metaDescription": "good",
+    "isDeleted": false,
+    "_id": "69f4f8f0781863097dfeb8a5",
+    "slug": "connectai-ai-driven-healthcare-platform",
+    "createdAt": "2026-05-01T19:03:12.957Z",
+    "updatedAt": "2026-05-01T19:03:12.957Z",
+    "publishedAt": "2026-05-01T19:03:12.957Z",
+    "__v": 0
+  }
+}
+{
+  "timestamp": "2026-05-01T19:04:34.612Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:04:34.903Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:04:35.250Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:04:35.610Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:04:35.922Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:04:36.181Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:12:38.905Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:12:40.331Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:12:40.695Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:12:40.932Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:12:41.186Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:12:41.477Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:15:57.572Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:15:57.805Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:15:58.134Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:15:58.389Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:15:58.615Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:15:58.866Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:17:26.007Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:17:26.345Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:17:26.705Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:17:26.989Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:17:27.306Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:17:27.544Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:11.581Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:18:13.046Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.048Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.318Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.320Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.586Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.590Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.844Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:13.849Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.107Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.111Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.364Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.376Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.634Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.635Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.893Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:14.931Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:15.158Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:15.199Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:15.414Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:18:15.671Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:10.809Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:11.084Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:11.439Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:11.797Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:12.039Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:12.288Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:27.992Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:28.492Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:28.740Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:29.008Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:19:50.839Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "$or": [
+      {
+        "_id": "64fc9c7240b488c66e949523"
+      },
+      {
+        "slug": "64fc9c7240b488c66e949523"
+      }
+    ],
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:20:24.694Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:20:24.966Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:20:25.226Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:20:25.484Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:23.792Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:21:25.323Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:25.332Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:25.570Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:25.580Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:25.819Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:25.827Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.083Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.108Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.347Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.352Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.583Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.604Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.822Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:26.861Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:27.168Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:27.173Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:27.417Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:27.432Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:27.693Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:27.945Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:31.941Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:21:32.112Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4f9e0781863097dfeb8aa",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:34.179Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:34.181Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:34.487Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:34.488Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:34.965Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:34.981Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:35.455Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:35.458Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:36.371Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:36.373Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:36.907Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:36.908Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:37.227Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:37.230Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:37.551Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:37.553Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:37.873Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:37.875Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:38.140Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:21:38.424Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:00.603Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:23:02.033Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:02.149Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:02.300Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:02.424Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:02.560Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:02.769Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:02.828Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:03.025Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:03.086Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:03.388Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:03.389Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:03.699Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:03.708Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:04.018Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:04.043Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:04.569Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:04.570Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:08.440Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:23:10.708Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:10.945Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:10.991Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:11.216Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:11.283Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:11.584Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:11.591Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:15.882Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:23:17.524Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:17.654Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:17.809Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:18.175Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:18.213Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:18.454Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:18.473Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:18.745Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:18.774Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:19.061Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:19.069Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:19.496Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:19.498Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:19.780Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:19.783Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:20.055Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:20.093Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:26.682Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:23:32.669Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:23:34.678Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:35.096Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:35.098Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:23:51.320Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:24:02.501Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:02.609Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:03.320Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:03.322Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:04.188Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:04.190Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:04.525Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:04.546Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:05.031Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:05.048Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:05.523Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:05.525Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:05.893Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:05.894Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:06.238Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:06.241Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:06.659Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:06.661Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:07.118Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:08.055Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:23.823Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4f9e0781863097dfeb8aa",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:24.135Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "updateOne",
+  "query": {
+    "_id": "69f4f9e0781863097dfeb8aa"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:27.379Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4f9f0781863097dfeb8ab",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:24:32.453Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4f9f0781863097dfeb8ab",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:05.312Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:25:06.872Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.004Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.147Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.263Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.425Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.512Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.693Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.775Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:07.980Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.095Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.281Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.351Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.555Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.611Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.829Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:08.870Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:09.100Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:09.114Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:09.367Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:09.625Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:15.311Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:25:16.915Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:16.926Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:17.162Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:17.189Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:17.463Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:17.465Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:17.782Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:17.783Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:18.086Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:18.088Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:18.438Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:18.438Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:18.745Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:18.746Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:19.003Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:19.012Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:19.261Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:19.273Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:19.577Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:19.863Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:24.319Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:25:25.746Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:25.761Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.007Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.011Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.261Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.267Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.518Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.528Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.764Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:26.800Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.014Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.086Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.390Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.391Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.650Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.656Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.901Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:27.913Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:28.195Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:28.504Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:31.780Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:32.255Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "findOne",
+  "query": {
+    "_id": "69f4d0621048fe75c7bb4a22"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:32.685Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:33.100Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:33.434Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "find",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:33.727Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "countDocuments",
+  "query": {
+    "author": "69f4d0621048fe75c7bb4a22",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:38.902Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:25:40.312Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:40.378Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:40.567Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:40.634Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:40.823Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:40.885Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.068Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.145Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.328Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.411Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.571Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.661Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.836Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:41.930Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:42.085Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:42.190Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:42.348Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:42.450Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:45.910Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:25:48.066Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:48.068Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:48.346Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:48.349Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:48.614Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:48.616Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:52.588Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T19:25:54.203Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:54.209Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:54.584Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:54.585Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:55.019Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "featured": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:55.034Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:55.607Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:55.657Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:55.876Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:55.928Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:56.155Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "description": "text",
+    "tags": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:56.207Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:56.488Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "featured": -1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:56.489Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:56.800Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:56.802Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "category": 1,
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:57.079Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T19:25:57.099Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "projects",
+  "method": "createIndex",
+  "query": {
+    "author": 1,
+    "status": 1
+  }
+}

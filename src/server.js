@@ -5,6 +5,7 @@ import errorHandler from './middleware/errorHandler.js';
 import DBConnect from './config/DBConnection.js';
 import authRouter from './routes/authRoutes.js';
 import blogRouter from './routes/blogRoutes.js';
+import projectRouter from './routes/projectRoutes.js';
 import logsMonitor from './middleware/logsHandler.js';
 import corsHandler from './middleware/corsHandler.js';
 import requestIdMiddleware from './middleware/requestId.js';
@@ -26,6 +27,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use('/api/auth', authRouter);
 app.use('/api/blogs', blogRouter);
+app.use('/api/projects', projectRouter);
 app.use(errorHandler);
 
 
