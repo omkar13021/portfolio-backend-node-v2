@@ -2,7 +2,7 @@ import express from 'express';
 import env from 'dotenv';
 import cookieParser from 'cookie-parser';
 import errorHandler from './middleware/errorHandler.js';
-import DBConnect from './config/DBConnect.js';
+import DBConnect from './config/DBConnection.js';
 import authRouter from './routes/authRoutes.js';
 import logsMonitor from './middleware/logsHandler.js';
 import corsHandler from './middleware/corsHandler.js';
@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 
-DBConnect();
+await DBConnect();
 
 app.use(logsMonitor());
 app.use(corsHandler);
