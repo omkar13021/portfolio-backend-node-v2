@@ -1,184 +1,56 @@
-import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
-import asyncHandler from 'express-async-handler';
-import User from '../models/User.js';
-import { authLogger, securityLogger } from '../utils/logger.js';
+import * as authService from '../services/authService.js';
+import { sendSuccess } from '../utils/ApiResponse.js';
+import { authLogger } from '../utils/logger.js';
 
-const createToken = (user) => {
-    return jwt.sign(
-        {
-            _id: user._id,
-            email: user.email,
-            role: user.role
-        },
-        process.env.ACCESS_TOKEN_SECRET,
-        { expiresIn: '7d' }
-    );
+export const signUp = async (req, res) => {
+    const user = await authService.registerUser(req.body);
+    authService.attachTokenCookies(res, user);
+
+    sendSuccess(res, {
+        statusCode: 201,
+        message   : 'Account created successfully',
+        data      : { _id: user._id, name: user.name, email: user.email, role: user.role },
+    });
 };
 
-export const signUp = asyncHandler(async (req, res) => {
-    const { name, email, password, role } = req.body;
+export const login = async (req, res) => {
+    const user = await authService.loginUser(req.body, req);
+    authService.attachTokenCookies(res, user);
 
-    if (!name || !email || !password) {
-        res.status(400);
-        throw new Error('All fields are required');
-    }
-
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-        res.status(409);
-        throw new Error('User already exists with this email');
-    }
-
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    const user = await User.create({
-        name,
-        email,
-        password: hashedPassword,
-        role: role || 'user'
-    });
-
-    const token = createToken(user);
-
-    res.cookie('token', token, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict',
-        maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
-    });
-
-    authLogger.info({
-        type: 'SIGNUP_SUCCESS',
-        requestId: req.id,
-        userId: user._id,
-        email: user.email,
-        role: user.role,
-        ip: req.ip || req.connection.remoteAddress,
-        timestamp: new Date().toISOString()
-    });
-
-    res.status(201).json({
-        success: true,
-        message: 'User registered successfully',
-        user: {
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            role: user.role
-        }
-    });
-});
-
-export const login = asyncHandler(async (req, res) => {
-    const { email, password } = req.body;
-
-    if (!email || !password) {
-        securityLogger.warn({
-            type: 'LOGIN_FAILED',
-            reason: 'Missing credentials',
-            requestId: req.id,
-            ip: req.ip || req.connection.remoteAddress,
-            timestamp: new Date().toISOString()
-        });
-        res.status(400);
-        throw new Error('Email and password are required');
-    }
-
-    const user = await User.findOne({ email });
-    if (!user) {
-        securityLogger.warn({
-            type: 'LOGIN_FAILED',
-            reason: 'User not found',
-            requestId: req.id,
-            email: email,
-            ip: req.ip || req.connection.remoteAddress,
-            timestamp: new Date().toISOString()
-        });
-        res.status(401);
-        throw new Error('Invalid credentials');
-    }
-
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid) {
-        securityLogger.warn({
-            type: 'LOGIN_FAILED',
-            reason: 'Invalid password',
-            requestId: req.id,
-            userId: user._id,
-            email: email,
-            ip: req.ip || req.connection.remoteAddress,
-            timestamp: new Date().toISOString()
-        });
-        res.status(401);
-        throw new Error('Invalid credentials');
-    }
-
-    const token = createToken(user);
-
-    res.cookie('token', token, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict',
-        maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
-    });
-
-    authLogger.info({
-        type: 'LOGIN_SUCCESS',
-        requestId: req.id,
-        userId: user._id,
-        email: user.email,
-        role: user.role,
-        ip: req.ip || req.connection.remoteAddress,
-        timestamp: new Date().toISOString()
-    });
-
-    res.status(200).json({
-        success: true,
+    sendSuccess(res, {
         message: 'Login successful',
-        user: {
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            role: user.role
-        }
+        data   : { _id: user._id, name: user.name, email: user.email, role: user.role },
     });
-});
+};
 
-export const logout = asyncHandler(async (req, res) => {
-    authLogger.info({
-        type: 'LOGOUT',
-        requestId: req.id,
-        userId: req.user?._id || null,
-        email: req.user?.email || null,
-        ip: req.ip || req.connection.remoteAddress,
-        timestamp: new Date().toISOString()
-    });
+export const refresh = async (req, res) => {
+    const token = req.cookies?.refreshToken;
+    const user  = await authService.refreshTokens(token);
+    authService.attachTokenCookies(res, user);
 
-    res.clearCookie('token');
-    res.status(200).json({
-        success: true,
-        message: 'Logged out successfully'
-    });
-});
+    sendSuccess(res, { message: 'Tokens refreshed' });
+};
 
-export const currentUser = asyncHandler(async (req, res) => {
-    const user = await User.findById(req.user._id).select('-password');
+export const logout = async (req, res) => {
+    authLogger.info('User logged out', { userId: req.user?._id });
 
-    if (!user) {
-        res.status(404);
-        throw new Error('User not found');
-    }
+    res.clearCookie('accessToken');
+    res.clearCookie('refreshToken', { path: '/api/auth/refresh' });
 
-    res.status(200).json({
-        success: true,
-        user: {
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            role: user.role,
+    sendSuccess(res, { message: 'Logged out successfully' });
+};
+
+export const currentUser = async (req, res) => {
+    const user = await authService.getCurrentUser(req.user._id);
+
+    sendSuccess(res, {
+        data: {
+            _id      : user._id,
+            name     : user.name,
+            email    : user.email,
+            role     : user.role,
             createdAt: user.createdAt,
-            updatedAt: user.updatedAt
-        }
+            updatedAt: user.updatedAt,
+        },
     });
-});
+};

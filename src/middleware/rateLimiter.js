@@ -1,36 +1,40 @@
 import rateLimit from 'express-rate-limit';
-import { rateLimitLogger } from '../utils/logger.js';
+import { securityLogger } from '../utils/logger.js';
 
-const limiter = rateLimit({
-    windowMs: 1 * 60 * 1000, // 1 minute
-    max: 100, // 100 requests per minute per IP
-    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-    legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-    message: {
-        success: false,
-        message: 'Too many requests from this IP, please try again after a minute.'
-    },
-    handler: (req, res) => {
-        rateLimitLogger.warn({
-            type: 'RATE_LIMIT_EXCEEDED',
-            ip: req.ip || req.connection.remoteAddress,
-            url: req.originalUrl,
-            method: req.method,
-            userAgent: req.get('User-Agent'),
-            requestId: req.id,
-            timestamp: new Date().toISOString()
-        });
+const makeHandler = (label) => (req, res) => {
+    securityLogger.warn(`Rate limit exceeded: ${label}`, {
+        ip       : req.ip,
+        url      : req.originalUrl,
+        method   : req.method,
+        userAgent: req.get('User-Agent'),
+        requestId: req.id,
+    });
 
-        res.status(429).json({
-            success: false,
-            message: 'Too many requests from this IP, please try again after a minute.',
-            retryAfter: Math.ceil(req.rateLimit.resetTime / 1000)
-        });
-    },
-    skip: (req) => {
-        // Skip rate limiting for certain IPs or routes if needed
-        return false;
-    }
+    res.status(429).json({
+        success   : false,
+        message   : 'Too many requests from this IP, please try again later.',
+        requestId : req.id,
+    });
+};
+
+/** 100 requests / minute — applied globally */
+const globalLimiter = rateLimit({
+    windowMs       : 60 * 1000,
+    max            : 100,
+    standardHeaders: true,
+    legacyHeaders  : false,
+    handler        : makeHandler('global'),
 });
 
-export default limiter;
+/** 5 requests / 15 minutes — applied only to auth routes */
+const authLimiter = rateLimit({
+    windowMs       : 15 * 60 * 1000,
+    max            : 5,
+    standardHeaders: true,
+    legacyHeaders  : false,
+    handler        : makeHandler('auth'),
+});
+
+const rateLimiter = { global: globalLimiter, auth: authLimiter };
+
+export default rateLimiter;

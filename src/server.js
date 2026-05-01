@@ -1,36 +1,35 @@
-import express from 'express';
-import env from 'dotenv';
-import cookieParser from 'cookie-parser';
-import errorHandler from './middleware/errorHandler.js';
-import DBConnect from './config/DBConnection.js';
-import authRouter from './routes/authRoutes.js';
-import blogRouter from './routes/blogRoutes.js';
-import projectRouter from './routes/projectRoutes.js';
-import logsMonitor from './middleware/logsHandler.js';
-import corsHandler from './middleware/corsHandler.js';
-import requestIdMiddleware from './middleware/requestId.js';
-import rateLimiter from './middleware/rateLimiter.js';
+// env.js must be the very first import — it calls dotenv/config and validates env vars
+import env from './config/env.js';
+import connectDB from './config/db.js';
+import createApp from './config/app.js';
+import logger from './utils/logger.js';
 
-env.config();
+const start = async () => {
+    await connectDB();
 
-const port = process.env.PORT || 5000;
+    const app = createApp();
 
-const app = express();
+    const server = app.listen(env.PORT, () => {
+        logger.info(`Server running in ${env.NODE_ENV} mode on port ${env.PORT}`);
+    });
 
-await DBConnect();
+    // Graceful shutdown — finish in-flight requests before exiting
+    const shutdown = (signal) => {
+        logger.info(`${signal} received — shutting down gracefully`);
+        server.close(() => {
+            logger.info('HTTP server closed');
+            process.exit(0);
+        });
+    };
 
-app.use(requestIdMiddleware);
-app.use(rateLimiter);
-app.use(logsMonitor());
-app.use(corsHandler);
-app.use(cookieParser());
-app.use(express.json());
-app.use('/api/auth', authRouter);
-app.use('/api/blogs', blogRouter);
-app.use('/api/projects', projectRouter);
-app.use(errorHandler);
+    process.on('SIGTERM', () => shutdown('SIGTERM'));
+    process.on('SIGINT',  () => shutdown('SIGINT'));
 
+    // Catch unhandled promise rejections so they don't silently swallow errors
+    process.on('unhandledRejection', (reason) => {
+        logger.error('Unhandled rejection', { reason });
+        shutdown('unhandledRejection');
+    });
+};
 
-app.listen(port, () => {
-    console.log(`Server listening on :${port}`);
-});
+start();

@@ -1,34 +1,31 @@
 import express from 'express';
 import {
-    getProjects,
-    getUserProjects,
-    getProjectById,
-    createProject,
-    updateProject,
-    deleteProject,
-    restoreProject,
-    likeProject,
-    unlikeProject,
-    toggleFeatured
+    getProjects, getUserProjects, getProjectById,
+    createProject, updateProject, deleteProject,
+    restoreProject, likeProject, unlikeProject, toggleFeatured,
 } from '../controllers/projectController.js';
-import requiredAuth from '../middleware/requiredAuth.js';
+import authenticate from '../middleware/authenticate.js';
+import validate from '../middleware/validate.js';
+import { createProjectSchema, updateProjectSchema } from '../validators/projectValidator.js';
 
 const router = express.Router();
 
-// Public routes
-router.get('/', getProjects);
-router.patch('/:id/like', likeProject);
+// ── Public ────────────────────────────────────────────────────────────────────
+router.get('/',              getProjects);
+router.patch('/:id/like',   likeProject);
 router.patch('/:id/unlike', unlikeProject);
 
-// Protected routes (require authentication)
-router.get('/user/my-projects', requiredAuth, getUserProjects);
-router.post('/', requiredAuth, createProject);
-router.put('/:id', requiredAuth, updateProject);
-router.delete('/:id', requiredAuth, deleteProject);
-router.patch('/:id/restore', requiredAuth, restoreProject);
-router.patch('/:id/toggle-featured', requiredAuth, toggleFeatured);
+// ── Private — specific paths MUST come before /:id ───────────────────────────
+router.get('/user/my-projects', authenticate, getUserProjects);
 
-// Public route - must be last to avoid catching protected routes
+router.post('/', authenticate, validate(createProjectSchema), createProject);
+
+router.put('/:id',                authenticate, validate(updateProjectSchema), updateProject);
+router.delete('/:id',             authenticate, deleteProject);
+router.patch('/:id/restore',      authenticate, restoreProject);
+router.patch('/:id/toggle-featured', authenticate, toggleFeatured);
+
+// ── Public — catch-all param route last ──────────────────────────────────────
 router.get('/:id', getProjectById);
 
 export default router;

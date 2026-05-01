@@ -5,184 +5,92 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const logFormat = winston.format.combine(
-    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-    winston.format.errors({ stack: true }),
-    winston.format.printf(({ timestamp, level, message, stack }) => {
-        if (typeof message === 'object') {
-            const logObject = {
-                timestamp,
-                level: level.toUpperCase(),
-                ...message
-            };
-            
-            if (stack) {
-                logObject.stack = stack;
-            }
-            
-            return JSON.stringify(logObject, null, 2);
-        }
-        
-        const logObject = {
-            timestamp,
-            level: level.toUpperCase(),
-            message
-        };
-        
-        if (stack) {
-            logObject.stack = stack;
-        }
-        
-        return JSON.stringify(logObject, null, 2);
-    })
-);
+const LOG_DIR = path.join(__dirname, '../../logs');
 
+// ─── Formats ────────────────────────────────────────────────────────────────
+
+/** Compact, colorized format for the developer console */
 const consoleFormat = winston.format.combine(
     winston.format.colorize(),
-    winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-    winston.format.printf(({ timestamp, level, message, stack }) => {
-        if (typeof message === 'object') {
-            const { type, requestId, method, url, statusCode, userId, email, ip } = message;
-            let logLine = `[${timestamp}] ${level} - ${type || 'LOG'}`;
-            if (requestId) logLine += ` | ID: ${requestId.substring(0, 8)}...`;
-            if (method && url) logLine += ` | ${method} ${url}`;
-            if (statusCode) logLine += ` | Status: ${statusCode}`;
-            if (userId) logLine += ` | User: ${userId}`;
-            if (email) logLine += ` (${email})`;
-            if (ip) logLine += ` | IP: ${ip}`;
-            
-            if (stack) {
-                logLine += `\n${stack}`;
-            }
-            return logLine;
+    winston.format.timestamp({ format: 'HH:mm:ss' }),
+    winston.format.printf(({ timestamp, level, message, module: mod, requestId, ...meta }) => {
+        let line = `[${timestamp}] ${level}`;
+        if (mod)       line += ` [${mod}]`;
+        if (requestId) line += ` (${String(requestId).substring(0, 8)})`;
+        line += `: ${typeof message === 'object' ? JSON.stringify(message) : message}`;
+        if (Object.keys(meta).length && meta.stack === undefined) {
+            line += ` ${JSON.stringify(meta)}`;
         }
-        
-        if (stack) {
-            return `[${timestamp}] ${level}: ${message}\n${stack}`;
-        }
-        return `[${timestamp}] ${level}: ${message}`;
+        if (meta.stack) line += `\n${meta.stack}`;
+        return line;
     })
 );
 
-// Main logger
+/** Structured JSON format for log files — machine-parsable */
+const jsonFormat = winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.errors({ stack: true }),
+    winston.format.json()
+);
+
+// ─── File transport factory ──────────────────────────────────────────────────
+
+const fileTransport = (filename) =>
+    new winston.transports.File({
+        filename: path.join(LOG_DIR, filename),
+        format: jsonFormat,
+        maxsize: 5 * 1024 * 1024, // 5 MB
+        maxFiles: 5,
+        tailable: true,
+    });
+
+// ─── Root logger ─────────────────────────────────────────────────────────────
+/**
+ * Single root logger. All domain loggers are child instances created with
+ * logger.child({ module: 'auth' }) — they inherit transports automatically.
+ */
 const logger = winston.createLogger({
-    level: 'info',
-    format: logFormat,
+    level: process.env.NODE_ENV === 'production' ? 'warn' : 'info',
+    defaultMeta: { service: 'portfolio-api' },
     transports: [
         new winston.transports.Console({ format: consoleFormat }),
+        fileTransport('combined.log'),
         new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/combined.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
+            filename: path.join(LOG_DIR, 'error.log'),
+            format: jsonFormat,
+            level: 'error',
+            maxsize: 5 * 1024 * 1024,
+            maxFiles: 5,
+            tailable: true,
+        }),
+    ],
 });
 
-// Error logger
-const errorLogger = winston.createLogger({
-    level: 'error',
-    format: logFormat,
-    transports: [
-        new winston.transports.Console({ format: consoleFormat }),
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/error.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
+// ─── Child loggers (domain-scoped, share root transports) ────────────────────
 
-// Request logger
-const requestLogger = winston.createLogger({
-    level: 'info',
-    format: logFormat,
-    transports: [
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/requests.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
+/** Logs auth events: signup, login, logout, token refresh */
+export const authLogger = logger.child({ module: 'auth' });
 
-// Authentication logger
-const authLogger = winston.createLogger({
-    level: 'info',
-    format: logFormat,
-    transports: [
-        new winston.transports.Console({ format: consoleFormat }),
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/auth.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
+/** Logs DB connection and query events */
+export const dbLogger = logger.child({ module: 'db' });
 
-// Database logger
-const dbLogger = winston.createLogger({
-    level: 'info',
-    format: logFormat,
-    transports: [
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/database.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
+/** Logs security warnings: failed logins, rate-limit hits */
+export const securityLogger = logger.child({ module: 'security' });
 
-// Security logger
-const securityLogger = winston.createLogger({
-    level: 'warn',
-    format: logFormat,
-    transports: [
-        new winston.transports.Console({ format: consoleFormat }),
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/security.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
+/** Logs blog CRUD operations */
+export const blogLogger = logger.child({ module: 'blog' });
 
-// Rate limit logger
-const rateLimitLogger = winston.createLogger({
-    level: 'warn',
-    format: logFormat,
-    transports: [
-        new winston.transports.Console({ format: consoleFormat }),
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/rate-limit.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
+/** Logs project CRUD operations */
+export const projectLogger = logger.child({ module: 'project' });
 
-// Blog logger
-const blogLogger = winston.createLogger({
-    level: 'info',
-    format: logFormat,
-    transports: [
-        new winston.transports.Console({ format: consoleFormat }),
-        new winston.transports.File({
-            filename: path.join(__dirname, '../../logs/blogs.log'),
-            maxsize: 5242880,
-            maxFiles: 5
-        })
-    ]
-});
-
-export {
-    logger,
-    errorLogger,
-    requestLogger,
-    authLogger,
-    dbLogger,
-    securityLogger,
-    rateLimitLogger,
-    blogLogger
+// ─── Morgan → Winston stream ─────────────────────────────────────────────────
+/**
+ * Morgan writes HTTP access logs into this stream so all logs go through
+ * the same Winston pipeline instead of stdout.
+ */
+export const morganStream = {
+    write: (message) => logger.http(message.trimEnd()),
 };
 
+export { logger };
 export default logger;

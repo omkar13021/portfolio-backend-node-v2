@@ -1,48 +1,32 @@
 import express from 'express';
 import {
-    createBlog,
-    getAllBlogs,
-    getBlogById,
-    updateBlog,
-    deleteBlog,
-    restoreBlog,
-    likeBlog,
-    unlikeBlog,
-    getUserBlogs,
-    publishScheduledBlogs
+    getAllBlogs, getUserBlogs, getBlogById,
+    createBlog, updateBlog, deleteBlog,
+    restoreBlog, likeBlog, unlikeBlog, publishScheduledBlogs,
 } from '../controllers/blogController.js';
-import requiredAuth from '../middleware/requiredAuth.js';
+import authenticate from '../middleware/authenticate.js';
+import authorize from '../middleware/authorize.js';
+import validate from '../middleware/validate.js';
+import { createBlogSchema, updateBlogSchema } from '../validators/blogValidator.js';
 
 const router = express.Router();
 
-// Public - Get all blogs with pagination and filtering
-router.route('/').get(getAllBlogs);
+// ── Public ────────────────────────────────────────────────────────────────────
+router.get('/', getAllBlogs);
 
-// Public - Get single blog by slug or ID
-router.route('/:id').get(getBlogById);
+// ── Private — specific paths MUST come before /:id ───────────────────────────
+router.get('/user/my-blogs',     authenticate, getUserBlogs);
+router.post('/publish-scheduled', authenticate, authorize('admin', 'super-admin'), publishScheduledBlogs);
 
-// Private - Create a new blog
-router.route('/').post(requiredAuth, createBlog);
+router.post('/', authenticate, validate(createBlogSchema), createBlog);
 
-// Private - Get current user's blogs
-router.route('/user/my-blogs').get(requiredAuth, getUserBlogs);
+router.put('/:id',          authenticate, validate(updateBlogSchema), updateBlog);
+router.delete('/:id',       authenticate, deleteBlog);
+router.post('/:id/restore', authenticate, restoreBlog);
+router.post('/:id/like',    authenticate, likeBlog);
+router.delete('/:id/like',  authenticate, unlikeBlog);
 
-// Private - Update a blog (author only)
-router.route('/:id').put(requiredAuth, updateBlog);
-
-// Private - Delete a blog (soft delete, author only)
-router.route('/:id').delete(requiredAuth, deleteBlog);
-
-// Private - Restore a soft-deleted blog (author only)
-router.route('/:id/restore').post(requiredAuth, restoreBlog);
-
-// Private - Like a blog
-router.route('/:id/like').post(requiredAuth, likeBlog);
-
-// Private - Unlike a blog
-router.route('/:id/like').delete(requiredAuth, unlikeBlog);
-
-// Private - Publish scheduled blogs (admin only, for cron job)
-router.route('/publish-scheduled').post(requiredAuth, publishScheduledBlogs);
+// ── Public — catch-all param route last ──────────────────────────────────────
+router.get('/:id', getBlogById);
 
 export default router;

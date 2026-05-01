@@ -1,20 +1,22 @@
 import express from 'express';
-import { currentUser, login, logout, signUp } from '../controllers/authController.js';
-import requiredAuth from '../middleware/requiredAuth.js';
+import { signUp, login, refresh, logout, currentUser } from '../controllers/authController.js';
+import authenticate from '../middleware/authenticate.js';
+import rateLimiter from '../middleware/rateLimiter.js';
+import validate from '../middleware/validate.js';
+import { signUpSchema, loginSchema } from '../validators/authValidator.js';
 
 const router = express.Router();
 
-// Public - Sign Up
-router.route('/sign-up').post(signUp);
+// Apply strict rate limiting to all auth routes
+router.use(rateLimiter.auth);
 
-// Public - Login
-router.route('/login').post(login);
+// Public
+router.post('/sign-up', validate(signUpSchema), signUp);
+router.post('/login',   validate(loginSchema),  login);
+router.post('/refresh', refresh);
+router.post('/logout',  logout);
 
-// Public - Logout
-router.route('/logout').post(logout);
-
-// Private - Current User
-router.route('/current-user').get(requiredAuth, currentUser);
-
+// Private
+router.get('/current-user', authenticate, currentUser);
 
 export default router;
