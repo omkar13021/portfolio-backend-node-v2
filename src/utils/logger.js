@@ -160,6 +160,20 @@ const rateLimitLogger = winston.createLogger({
     ]
 });
 
+// Blog logger
+const blogLogger = winston.createLogger({
+    level: 'info',
+    format: logFormat,
+    transports: [
+        new winston.transports.Console({ format: consoleFormat }),
+        new winston.transports.File({
+            filename: path.join(__dirname, '../../logs/blogs.log'),
+            maxsize: 5242880,
+            maxFiles: 5
+        })
+    ]
+});
+
 export {
     logger,
     errorLogger,
@@ -167,7 +181,8 @@ export {
     authLogger,
     dbLogger,
     securityLogger,
-    rateLimitLogger
+    rateLimitLogger,
+    blogLogger
 };
 
 export default logger;
