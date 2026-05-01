@@ -2649,3 +2649,867 @@
     "scheduledAt": 1
   }
 }
+{
+  "timestamp": "2026-05-01T18:34:21.021Z",
+  "level": "INFO",
+  "type": "DB_CONNECTION_SUCCESS",
+  "database": "omkarcodes",
+  "host": "ac-id8pepn-shard-00-00.zb2gb6r.mongodb.net"
+}
+{
+  "timestamp": "2026-05-01T18:34:22.621Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:22.893Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:23.233Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "slug": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:23.561Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "author": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:23.820Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:24.071Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:24.332Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "tags": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:24.682Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "isDeleted": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:25.019Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "publishedAt": -1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:25.272Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "title": "text",
+    "excerpt": "text"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:25.528Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "createIndex",
+  "query": {
+    "status": 1,
+    "scheduledAt": 1
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:44.526Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:45.293Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:45.562Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:45.960Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:46.282Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:46.341Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:46.511Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:46.809Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:47.100Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:52.369Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:52.948Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:34:53.179Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:36:15.167Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:36:15.795Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:36:16.060Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:26.864Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:27.095Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:27.322Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:27.663Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:27.892Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:28.125Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:41.080Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:41.319Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:38:41.585Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:01.304Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:01.808Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:02.056Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:05.710Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:05.944Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:06.170Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "64f5b4513edeb35327d6e012"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:47.312Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:47.366Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:47.541Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:47.595Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:47.764Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "64f5b4513edeb35327d6e012"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:47.821Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "64f5b4513edeb35327d6e012"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:58.560Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:58.788Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:39:59.046Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "64f5b4513edeb35327d6e012"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:12.837Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:13.462Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:13.850Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:20.770Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:21.122Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:21.389Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:26.880Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:27.259Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:27.493Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:38.871Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:39.086Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "fell-in-love-with-ai",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:39.099Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:39.318Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:39.321Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:40:39.590Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "69f4e735dc7e87b78f548758"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:06.543Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:07.001Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:07.259Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:27.375Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOne",
+  "query": {
+    "slug": "how-to-create-ubuntu-server-on-digitalocean",
+    "isDeleted": false
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:27.652Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:27.912Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "findOneAndUpdate",
+  "query": {
+    "_id": "64fc9c7240b488c66e949523"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:44.572Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "find",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:45.197Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "users",
+  "method": "find",
+  "query": {
+    "_id": {
+      "$in": [
+        "69f4d0621048fe75c7bb4a22"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2026-05-01T18:41:45.500Z",
+  "level": "INFO",
+  "type": "DB_QUERY",
+  "collection": "blogs",
+  "method": "countDocuments",
+  "query": {
+    "isDeleted": false,
+    "status": "published"
+  }
+}

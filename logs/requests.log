@@ -3006,3 +3006,486 @@
   "duration": "1ms",
   "userId": null
 }
+{
+  "timestamp": "2026-05-01T18:34:44.513Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "36ed3b29-d529-4d0a-8aa5-38f85c635c45",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:34:45.861Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "36ed3b29-d529-4d0a-8aa5-38f85c635c45",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1348ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:34:45.958Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "3e3993b4-2e19-486f-8364-a52a33670d91",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:34:46.339Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "38e95247-a165-42da-800f-3773a8c9bb02",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:34:46.782Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "3e3993b4-2e19-486f-8364-a52a33670d91",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "824ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:34:47.423Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "38e95247-a165-42da-800f-3773a8c9bb02",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1084ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:34:52.368Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "bb49969f-9874-4c12-a3b2-bf720f1eb491",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:34:53.405Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "bb49969f-9874-4c12-a3b2-bf720f1eb491",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1037ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:36:15.166Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "0fc1dc61-47ee-4c63-96a7-b00d18110288",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:36:16.385Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "0fc1dc61-47ee-4c63-96a7-b00d18110288",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1219ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:38:26.863Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "cbb1b7c5-5550-4695-ba95-fc84239b0a2a",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:38:27.582Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "cbb1b7c5-5550-4695-ba95-fc84239b0a2a",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "719ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:38:27.662Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "15887119-70ed-4080-aa85-cd028e8225ea",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:38:28.361Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "15887119-70ed-4080-aa85-cd028e8225ea",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "699ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:38:41.079Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "2ca1b764-8003-44fb-972c-dadac3cc813f",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:38:41.828Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "2ca1b764-8003-44fb-972c-dadac3cc813f",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "749ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:39:01.303Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "e4d0b90f-8929-4bed-8769-9551fa45e61e",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:39:02.299Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "e4d0b90f-8929-4bed-8769-9551fa45e61e",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "996ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:39:05.709Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "23174216-5e08-45fa-b689-0b6d6e14070a",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:39:06.408Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "23174216-5e08-45fa-b689-0b6d6e14070a",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "statusCode": 200,
+  "duration": "699ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:39:47.311Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9dc49805-fbd5-4e03-a515-f010b7992965",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:39:47.365Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "c2cdf685-04e7-441b-9bc6-c83cb2509020",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:39:47.990Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "9dc49805-fbd5-4e03-a515-f010b7992965",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "statusCode": 200,
+  "duration": "679ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:39:48.049Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "c2cdf685-04e7-441b-9bc6-c83cb2509020",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "statusCode": 200,
+  "duration": "684ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:39:58.559Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "26f81770-5000-4bd9-a956-353b1efb6588",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:39:59.447Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "26f81770-5000-4bd9-a956-353b1efb6588",
+  "method": "GET",
+  "url": "/api/blogs/how-to-set-up-ufw-uncomplicated-firewall-on-ubuntu",
+  "statusCode": 200,
+  "duration": "888ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:40:12.836Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "31a49ac1-6800-4316-91cb-a58cb8c34f3d",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:40:14.261Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "31a49ac1-6800-4316-91cb-a58cb8c34f3d",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1425ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:40:20.769Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "f395d7ba-1c76-4199-9e8f-cd830541930d",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:40:21.737Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "f395d7ba-1c76-4199-9e8f-cd830541930d",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "968ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:40:26.880Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "9c448baa-739a-4205-a271-00ff2f61b64b",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:40:27.735Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "9c448baa-739a-4205-a271-00ff2f61b64b",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "855ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:40:38.870Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "8a9e7f8b-c62e-4be8-ab5f-ccddf88833af",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:40:39.086Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "5889c431-d18e-45d2-a055-e8ccc8fb6286",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:40:39.588Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "8a9e7f8b-c62e-4be8-ab5f-ccddf88833af",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "718ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:40:39.835Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "5889c431-d18e-45d2-a055-e8ccc8fb6286",
+  "method": "GET",
+  "url": "/api/blogs/fell-in-love-with-ai",
+  "statusCode": 200,
+  "duration": "749ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:41:06.542Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "fae86131-ef0e-44d9-8e4b-8a6f113cfdeb",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:41:07.492Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "fae86131-ef0e-44d9-8e4b-8a6f113cfdeb",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "949ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:41:27.374Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "6fa68c08-5056-4eb7-84e4-a44d6f263ff6",
+  "method": "GET",
+  "url": "/api/blogs/how-to-create-ubuntu-server-on-digitalocean",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:41:28.165Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "6fa68c08-5056-4eb7-84e4-a44d6f263ff6",
+  "method": "GET",
+  "url": "/api/blogs/how-to-create-ubuntu-server-on-digitalocean",
+  "statusCode": 200,
+  "duration": "791ms",
+  "userId": null
+}
+{
+  "timestamp": "2026-05-01T18:41:44.571Z",
+  "level": "INFO",
+  "type": "REQUEST",
+  "requestId": "e09de6f1-5032-4dbd-956b-23ff251bd741",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "ip": "::1",
+  "userAgent": "node",
+  "userId": null,
+  "userEmail": null
+}
+{
+  "timestamp": "2026-05-01T18:41:45.809Z",
+  "level": "INFO",
+  "type": "RESPONSE",
+  "requestId": "e09de6f1-5032-4dbd-956b-23ff251bd741",
+  "method": "GET",
+  "url": "/api/blogs?status=published&page=1&limit=10",
+  "statusCode": 200,
+  "duration": "1238ms",
+  "userId": null
+}
