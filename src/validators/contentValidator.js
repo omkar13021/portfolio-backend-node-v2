@@ -17,12 +17,12 @@ const resultSchema = z.object({
     value : z.string(),
 });
 
-const PROJECT_CATEGORIES = [
-    'Web Development', 'Mobile App', 'UI/UX Design',
-    'Data Science', 'Machine Learning', 'DevOps', 'Other',
+const CONTENT_CATEGORIES = [
+    'project', 'service', 'product', 'Web Development', 'Mobile App', 'UI/UX Design',
+    'Data Science', 'Machine Learning', 'course', 'Other',
 ];
 
-const projectBaseSchema = z.object({
+const contentBaseSchema = z.object({
     title: z
         .string({ required_error: 'Title is required' })
         .trim()
@@ -38,8 +38,8 @@ const projectBaseSchema = z.object({
     fullDescription: z.string().trim().optional(),
 
     category: z
-        .enum(PROJECT_CATEGORIES, { errorMap: () => ({ message: `Category must be one of: ${PROJECT_CATEGORIES.join(', ')}` }) })
-        .default('Web Development'),
+        .enum(CONTENT_CATEGORIES, { errorMap: () => ({ message: `Category must be one of: ${CONTENT_CATEGORIES.join(', ')}` }) })
+        .default('project'),
 
     technologies: z.array(z.string().trim()).optional().default([]),
 
@@ -68,7 +68,7 @@ const projectBaseSchema = z.object({
     metaDescription: z.string().max(160).optional(),
 });
 
-export const createProjectSchema = projectBaseSchema;
+export const createContentSchema = contentBaseSchema;
 
 /** All fields optional for updates */
-export const updateProjectSchema = projectBaseSchema.partial();
+export const updateContentSchema = contentBaseSchema.partial();

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import slugify from 'slugify';
 
-const projectSchema = new mongoose.Schema({
+const contentSchema = new mongoose.Schema({
     title: {
         type: String,
         trim: true
@@ -20,8 +20,8 @@ const projectSchema = new mongoose.Schema({
     },
     category: {
         type: String,
-        enum: ['Web Development', 'Mobile App', 'UI/UX Design', 'Data Science', 'Machine Learning', 'DevOps', 'Other'],
-        default: 'Web Development'
+        enum: ['project', 'service', 'product', 'course'],
+        default: 'project'
     },
     technologies: [{
         type: String,
@@ -121,13 +121,13 @@ const projectSchema = new mongoose.Schema({
 });
 
 // Indexes for performance
-projectSchema.index({ title: 'text', description: 'text', tags: 'text' });
-projectSchema.index({ status: 1, featured: -1, publishedAt: -1 });
-projectSchema.index({ category: 1, status: 1 });
-projectSchema.index({ author: 1, status: 1 });
+contentSchema.index({ title: 'text', description: 'text', tags: 'text' });
+contentSchema.index({ status: 1, featured: -1, publishedAt: -1 });
+contentSchema.index({ category: 1, status: 1 });
+contentSchema.index({ author: 1, status: 1 });
 
 // Virtual for duration
-projectSchema.virtual('duration').get(function() {
+contentSchema.virtual('duration').get(function() {
     if (this.startDate && this.endDate) {
         const months = Math.round((this.endDate - this.startDate) / (1000 * 60 * 60 * 24 * 30));
         return months > 0 ? `${months} month${months > 1 ? 's' : ''}` : 'Less than a month';
@@ -136,7 +136,7 @@ projectSchema.virtual('duration').get(function() {
 });
 
 // Pre-validate hook for auto-slug generation
-projectSchema.pre('validate', function(next) {
+contentSchema.pre('validate', function(next) {
     if (this.title && !this.slug) {
         this.slug = slugify(this.title, { lower: true, strict: true });
     }
@@ -144,7 +144,7 @@ projectSchema.pre('validate', function(next) {
 });
 
 // Pre-save hook
-projectSchema.pre('save', function(next) {
+contentSchema.pre('save', function(next) {
     // Set publishedAt when status changes to published
     if (this.isModified('status') && this.status === 'published' && !this.publishedAt) {
         this.publishedAt = new Date();
@@ -159,63 +159,63 @@ projectSchema.pre('save', function(next) {
 });
 
 // Static methods for atomic updates
-projectSchema.statics.incrementViews = async function(projectId) {
+contentSchema.statics.incrementViews = async function(contentId) {
     return await this.findByIdAndUpdate(
-        projectId,
+        contentId,
         { $inc: { views: 1 } },
         { new: true }
     );
 };
 
-projectSchema.statics.incrementLikes = async function(projectId) {
+contentSchema.statics.incrementLikes = async function(contentId) {
     return await this.findByIdAndUpdate(
-        projectId,
+        contentId,
         { $inc: { likes: 1 } },
         { new: true }
     );
 };
 
-projectSchema.statics.decrementLikes = async function(projectId) {
+contentSchema.statics.decrementLikes = async function(contentId) {
     return await this.findByIdAndUpdate(
-        projectId,
+        contentId,
         { $inc: { likes: -1 } },
         { new: true }
     );
 };
 
-projectSchema.statics.softDelete = async function(projectId) {
+contentSchema.statics.softDelete = async function(contentId) {
     return await this.findByIdAndUpdate(
-        projectId,
+        contentId,
         { isDeleted: true },
         { new: true }
     );
 };
 
-projectSchema.statics.restore = async function(projectId) {
+contentSchema.statics.restore = async function(contentId) {
     return await this.findByIdAndUpdate(
-        projectId,
+        contentId,
         { isDeleted: false },
         { new: true }
     );
 };
 
 // Query helpers
-projectSchema.query.published = function() {
+contentSchema.query.published = function() {
     return this.where({ status: 'published', isDeleted: false });
 };
 
-projectSchema.query.featured = function() {
+contentSchema.query.featured = function() {
     return this.where({ featured: true, isDeleted: false });
 };
 
-projectSchema.query.byCategory = function(category) {
+contentSchema.query.byCategory = function(category) {
     return this.where({ category, isDeleted: false });
 };
 
-projectSchema.query.byAuthor = function(authorId) {
+contentSchema.query.byAuthor = function(authorId) {
     return this.where({ author: authorId, isDeleted: false });
 };
 
-const Project = mongoose.model('Project', projectSchema);
+const Content = mongoose.model('Content', contentSchema);
 
-export default Project;
+export default Content;

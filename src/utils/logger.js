@@ -80,8 +80,8 @@ export const securityLogger = logger.child({ module: 'security' });
 /** Logs blog CRUD operations */
 export const blogLogger = logger.child({ module: 'blog' });
 
-/** Logs project CRUD operations */
-export const projectLogger = logger.child({ module: 'project' });
+/** Logs content CRUD operations */
+export const contentLogger = logger.child({ module: 'content' });
 
 // ─── Morgan → Winston stream ─────────────────────────────────────────────────
 /**
