@@ -8,6 +8,8 @@ import express from 'express';
 import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
 import mongoSanitize from 'express-mongo-sanitize';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 import corsHandler from '../middleware/corsHandler.js';
 import requestId from '../middleware/requestId.js';
@@ -15,6 +17,9 @@ import rateLimiter from '../middleware/rateLimiter.js';
 import requestLogger from '../middleware/requestLogger.js';
 import errorHandler from '../middleware/errorHandler.js';
 import router from '../routes/index.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const createApp = () => {
     const app = express();
@@ -41,6 +46,9 @@ const createApp = () => {
 
     // ── Input sanitization ────────────────────────────────────────────────────
     app.use(mongoSanitize());   // Strips $ and . from req.body/query/params
+
+    // ── Static files (uploads) ────────────────────────────────────────────────
+    app.use('/uploads', express.static(path.join(__dirname, '../../uploads')));
 
     // ── Routes ────────────────────────────────────────────────────────────────
     app.use('/api', router);

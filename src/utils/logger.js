@@ -83,6 +83,9 @@ export const blogLogger = logger.child({ module: 'blog' });
 /** Logs content CRUD operations */
 export const contentLogger = logger.child({ module: 'content' });
 
+/** Logs profile operations */
+export const profileLogger = logger.child({ module: 'profile' });
+
 // ─── Morgan → Winston stream ─────────────────────────────────────────────────
 /**
  * Morgan writes HTTP access logs into this stream so all logs go through
