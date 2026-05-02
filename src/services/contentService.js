@@ -94,7 +94,7 @@ export const updateContent = async (id, data, userId) => {
         'title', 'description', 'fullDescription', 'category', 'technologies',
         'images', 'thumbnailImage', 'demoUrl', 'githubUrl', 'status', 'featured',
         'startDate', 'endDate', 'client', 'teamSize', 'role', 'challenges',
-        'solutions', 'results', 'tags', 'metaTitle', 'metaDescription',
+        'solutions', 'results', 'tags', 'metaTitle', 'metaDescription', 'richContent',
     ];
 
     ALLOWED.forEach((field) => {

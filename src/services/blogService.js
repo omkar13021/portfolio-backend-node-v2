@@ -84,8 +84,17 @@ export const createBlog = async (data, userId) => {
 export const updateBlog = async (id, data, userId) => {
     const blog = await findAndVerifyOwner(id, userId);
 
-    // Use consistent save() pattern (runs hooks + validators)
-    Object.assign(blog, data);
+    const ALLOWED = [
+        'title', 'slug', 'content', 'bodyHtml', 'excerpt', 'featuredImage',
+        'tags', 'category', 'status', 'scheduledAt',
+        'metaTitle', 'metaDescription',
+    ];
+
+    const safe = Object.fromEntries(
+        Object.entries(data).filter(([k]) => ALLOWED.includes(k))
+    );
+
+    Object.assign(blog, safe);
     const updated = await blog.save();
 
     blogLogger.info('Blog updated', { blogId: blog._id, authorId: userId });

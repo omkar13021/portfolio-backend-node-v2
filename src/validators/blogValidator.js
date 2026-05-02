@@ -77,9 +77,9 @@ const blogBaseSchema = z.object({
 
     slug: z.string().trim().toLowerCase().optional(),
 
-    content: z
-        .array(contentBlockSchema, { required_error: 'Content is required' })
-        .min(1, 'Content must have at least one block'),
+    content: z.array(contentBlockSchema).optional().default([]),
+
+    bodyHtml: z.string().optional(),
 
     excerpt: z.string().trim().max(500).optional(),
 

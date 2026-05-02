@@ -66,6 +66,8 @@ const contentBaseSchema = z.object({
 
     metaTitle      : z.string().max(60).optional(),
     metaDescription: z.string().max(160).optional(),
+
+    richContent: z.string().optional(),
 });
 
 export const createContentSchema = contentBaseSchema;

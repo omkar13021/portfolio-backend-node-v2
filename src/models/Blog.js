@@ -122,6 +122,10 @@ const schema = new mongoose.Schema({
         type: Boolean,
         default: false,
         index: true
+    },
+    bodyHtml: {
+        type: String,
+        default: null
     }
 }, { timestamps: true });
 

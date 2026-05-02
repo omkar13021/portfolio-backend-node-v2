@@ -113,6 +113,10 @@ const contentSchema = new mongoose.Schema({
     },
     publishedAt: {
         type: Date
+    },
+    richContent: {
+        type: String,
+        default: null
     }
 }, {
     timestamps: true,
